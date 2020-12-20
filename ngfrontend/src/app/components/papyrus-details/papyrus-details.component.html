@@ -1,0 +1,110 @@
+<div class="row justify-content-center mt-5">
+  <div class="col-md-0 mw-100">
+
+    <form *ngIf="mode === 'INSERT'" [formGroup]="papyrusForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label>Name</label>
+        <input class="form-control" type="text" formControlName="Name" required>
+      </div>
+      <div class="form-group">
+        <label>Sign</label>
+        <input class="form-control" type="text" formControlName="Sign" required>
+      </div>
+      <div class="form-group">
+        <label>Reference</label>
+        <input class="form-control" type="text" formControlName="Reference" required>
+      </div>
+      <div class="form-group">
+        <label>Date</label>
+        <input class="form-control" type="text" formControlName="Date" required>
+      </div>
+      <div class="input-group">
+        <span><label>Century</label></span>
+        <input class="form-control" type="text" formControlName="Century" required>
+        <label>Early Date</label>
+        <input class="form-control" type="text" formControlName="EarlyDate" required>
+      </div>
+      <div class="form-group">
+        <label>LateDate</label>
+        <input class="form-control" type="text" formControlName="LateDate" required>
+      </div>
+      <div class="form-group">
+        <label>Gospel of John Texts contained in papyrus</label>
+        <input class="form-control" type="text" formControlName="GospelOfJohnText" required>
+      </div>
+      <div class="form-group">
+        <label>Place of Discovery</label>
+        <input class="form-control" type="text" formControlName="PlaceOfDiscovery" required>
+      </div>
+      <div class="form-group">
+        <label>Category</label>
+        <input class="form-control" type="text" formControlName="Category" required>
+      </div>
+      <div class="form-group">
+        <label>Discovery Latitude </label>
+        <input class="form-control" type="text" formControlName="DiscoveryLatX" required>
+      </div>
+      <div class="form-group">
+        <label>Discovery Longitude </label>
+        <input class="form-control" type="text" formControlName="DiscoveryLongY" required>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary btn-block" type="submit">Add Papyrus to Collection</button>
+      </div>
+    </form>
+
+    <form *ngIf="mode === 'UPDATE'" [formGroup]="papyrusForm" (ngSubmit)="onUpdate()">
+      <div class="form-group">
+        <label>Name</label>
+        <input class="form-control" type="text" formControlName="Name" required>
+      </div>
+      <div class="form-group">
+        <label>Sign</label>
+        <input class="form-control" type="text" formControlName="Sign" required readonly>
+      </div>
+      <div class="form-group">
+        <label>Reference</label>
+        <input class="form-control" type="text" formControlName="Reference" required>
+      </div>
+      <div class="form-group">
+        <label>Date</label>
+        <input class="form-control" type="text" formControlName="Date" required>
+      </div>
+      <div class="input-group">
+        <span><label>Century</label></span>
+        <input class="form-control" type="text" formControlName="Century" required>
+        <label>Early Date</label>
+        <input class="form-control" type="text" formControlName="EarlyDate" required>
+      </div>
+      <div class="form-group">
+        <label>LateDate</label>
+        <input class="form-control" type="text" formControlName="LateDate" required>
+      </div>
+      <div class="form-group">
+        <label>Gospel of John Texts contained in papyrus</label>
+        <input class="form-control" type="text" formControlName="GospelOfJohnText" required>
+      </div>
+      <div class="form-group">
+        <label>Place of Discovery</label>
+        <input class="form-control" type="text" formControlName="PlaceOfDiscovery" required>
+      </div>
+      <div class="form-group">
+        <label>Category</label>
+        <input class="form-control" type="text" formControlName="Category" required>
+      </div>
+      <div class="form-group">
+        <label>Discovery Latitude</label>
+        <input class="form-control" type="text" formControlName="DiscoveryLatX" required>
+      </div>
+      <div class="form-group">
+        <label>Discovery Longitude</label>
+        <input class="form-control" type="text" formControlName="DiscoveryLongY" required>
+      </div>
+      <div class="form-group">
+        <label>MongoDB _id </label>
+        <input class="form-control" type="text" formControlName="id" required readonly>
+      </div>
+    </form>
+
+  </div>
+</div>

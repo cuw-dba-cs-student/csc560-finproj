@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-0 border-bottom">
+      <h2 class="h2">Seahawks Roster</h2>
+    </div>
+  
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th class="text-center" scope="col">Action</th>            
+            <th scope="col">Name</th>
+            <th scope="col">Sign</th>
+            <th scope="col">Reference</th>
+            <th scope="col">Date</th>
+            <th scope="col">Century</th>
+            <th scope="col">Early Date</th>
+            <th scope="col">Late Date</th>
+            <th scope="col">Gospel of John Text</th>
+            <th scope="col">Place of Discovery</th>
+            <th scope="col">Category</th>
+            <th scope="col">Discovery Latitude</th>
+            <th scope="col">Discovery Longitude</th>
+            <th scope="col">MongoDB _id</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let papyrus of Papyri; let i = index">
+            <td class="text-center">
+              <button class="btn btn-sm btn-primary" routerLink="/getPapyrus/{{papyrus.Sign}}">Edit</button>                                 
+              <button class="btn btn-sm btn-danger" (click)="deletePlayer(papyrus.Sign, i)">Delete</button>
+            </td>
+            <td>{{papyrus.Name}}</td>
+            <td>{{papyrus.Sign}}</td>
+            <td>{{papyrus.Reference}}</td>
+            <td>{{papyrus.Date}}</td>
+            <td>{{papyrus.Century}}</td>
+            <td>{{papyrus.EarlyDate}}</td>
+            <td>{{papyrus.LateDate}}</td>
+            <td>{{papyrus.GospelOfJohnText}}</td>            
+            <td>{{papyrus.PlaceOfDiscovery}}</td>
+            <td>{{papyrus.Category}}</td>
+            <td>{{papyrus.DiscoveryLatX}}</td>
+            <td>{{papyrus.DiscoveryLongY}}</td>
+            <th scope="row">{{papyrus._id}}</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
