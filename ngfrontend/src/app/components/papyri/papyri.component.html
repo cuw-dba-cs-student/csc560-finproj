@@ -1,7 +1,7 @@
 <div *ngIf="mode === 'CENTURYQUERY'" class="container-fluid">
   <form [formGroup]="queryForm" (ngSubmit)="centuryQuery()">
     <div class="form-group">
-      <label>Century</label>
+      <label>Century (Valid search options are "2nd", "3rd", "4th", "5th", "6th", and "7th")</label>
       <input class="form-control" type="text" formControlName="lookUpVal" required>
     </div>
     <div class="form-group">
