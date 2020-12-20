@@ -8,7 +8,9 @@ const routes: Routes = [
   { path: 'allPapyri', component: PapyriComponent },
   { path: '',   redirectTo: '/allPapyri', pathMatch: 'full' },  
   { path: 'findByCentury/:century', component: PapyriComponent},
-  { path: 'findByCategory/:cateogry', component: PapyriComponent},
+  { path: 'papyriByCentury', component: PapyriComponent},
+  { path: 'findByCategory/:category', component: PapyriComponent},
+  { path: 'papyriByCategory', component: PapyriComponent},
   { path: 'addPapyrus', component: PapyrusDetailsComponent },
   { path: 'getPapyrus/:sign', component: PapyrusDetailsComponent }
 ];

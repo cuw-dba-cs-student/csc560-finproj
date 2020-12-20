@@ -3,11 +3,12 @@ const router = express.Router();
 const Papyrus = require('../models/Papyrus');
 
 router.delete('/:sign', async (req, res) => {
-    const id = req.params.sign;
+    const sign = req.params.sign;
+    console.log('Deleting papyrus identified by ' + sign);
     try {
-        const deletedPlayer = await Papyrus.findByIdAndRemove(sign);
+        const deletedPlayer = await Papyrus.Player.deleteOne({Sign: sign});
         res.json(deletedPlayer);
-    } catch {
+    } catch(err) {
         res.json({
             message: err
         });

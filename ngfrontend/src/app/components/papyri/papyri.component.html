@@ -1,9 +1,34 @@
-<div class="container-fluid">
+<div *ngIf="mode === 'CENTURYQUERY'" class="container-fluid">
+  <form [formGroup]="queryForm" (ngSubmit)="centuryQuery()">
+    <div class="form-group">
+      <label>Century</label>
+      <input class="form-control" type="text" formControlName="lookUpVal" required>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary btn-block" type="submit">Display List</button>
+    </div>
+  </form>
+</div>
+
+<div *ngIf="mode === 'CATEGORYQUERY'" class="container-fluid">  
+  <form [formGroup]="queryForm" (ngSubmit)="categoryQuery()">
+    <div class="form-group">
+      <label>Category (Valid search options are "I", "II", and "III")</label>
+      <input class="form-control" type="text" formControlName="lookUpVal" required>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary btn-block" type="submit">Display List</button>
+    </div>
+  </form>
+</div> 
+
+
+<div *ngIf="mode === 'DISPLIST'" class="container-fluid">
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-0 border-bottom">
-      <h2 class="h2">Seahawks Roster</h2>
+      <h2 class="h2">List of Gospel of John Papyri</h2>
     </div>
   
-    <div class="table-responsive">
+    <div class="table-responsive" >
       <table class="table table-bordered">
         <thead>
           <tr>
@@ -27,7 +52,7 @@
           <tr *ngFor="let papyrus of Papyri; let i = index">
             <td class="text-center">
               <button class="btn btn-sm btn-primary" routerLink="/getPapyrus/{{papyrus.Sign}}">Edit</button>                                 
-              <button class="btn btn-sm btn-danger" (click)="deletePlayer(papyrus.Sign, i)">Delete</button>
+              <button class="btn btn-sm btn-danger" (click)="deletePapyrus(papyrus.Sign, i)">Delete</button>
             </td>
             <td>{{papyrus.Name}}</td>
             <td>{{papyrus.Sign}}</td>

@@ -39,8 +39,8 @@ export class PapyrusDetailsComponent implements OnInit {
       id:['']
     })
 
-    console.log(this.activatedRoute.snapshot);
-    console.log(this.activatedRoute.snapshot.url[0].path);
+//    console.log(this.activatedRoute.snapshot);
+//    console.log(this.activatedRoute.snapshot.url[0].path);
 
     if (this.activatedRoute.snapshot.url[0].path == 'getPapyrus') {
 
@@ -48,12 +48,12 @@ export class PapyrusDetailsComponent implements OnInit {
                 
       this.sign = this.activatedRoute.snapshot.paramMap.get('sign');
             
-      console.log("Sign " + this.sign);
+//      console.log("Sign " + this.sign);
       
       this.papyriService.GetPapyrus(this.sign).subscribe(res => {                        
-        console.log('Response from GetPapyrus ENDPOINT:');
-        console.log(res);
-        console.log(this.papyrusForm);
+//        console.log('Response from GetPapyrus ENDPOINT:');
+//        console.log(res);
+//        console.log(this.papyrusForm);
         // Set form vals 
         this.papyrusForm.patchValue({
           Name: res['Name'],
@@ -102,7 +102,7 @@ export class PapyrusDetailsComponent implements OnInit {
     this.papyriService.UpdatePapyrus(  this.papyrusForm.get('Sign')?.value,  this.papyrusForm.value ) 
       .subscribe(()=> {
         console.log('Papyrus updated successfully!')
-        this.ngZone.run(() => this.router.navigateByUrl('/papyri'))
+        this.ngZone.run(() => this.router.navigateByUrl('/allPapyri'))
       }, (err) => {
         console.log(err);
       });   
@@ -114,7 +114,7 @@ export class PapyrusDetailsComponent implements OnInit {
     this.papyriService.AddPapyrus(this.papyrusForm.value)
     .subscribe(() => {
         console.log('Papyrus added successfully!')
-        this.ngZone.run(() => this.router.navigateByUrl('/papyri'))
+        this.ngZone.run(() => this.router.navigateByUrl('/allPapyri'))
       }, (err) => {
         console.log(err);
     }); 

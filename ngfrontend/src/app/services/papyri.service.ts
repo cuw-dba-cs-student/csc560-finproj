@@ -45,7 +45,7 @@ export class PapyriService {
     }
 
     FindByCategory(category: string): Observable<any> {
-      let URI = `${this.REST_API}/findByCategory/${category}`;
+      let URI = `${this.REST_API}/findByCategory/${category}`;      
       return this.httpClient.get(URI)
         .pipe(
           catchError(this.handleError)
@@ -61,7 +61,8 @@ export class PapyriService {
     }
     
     UpdatePapyrus(sign: string, payload: Papyrus): Observable<any> {
-      let URI = `${this.REST_API}/updatedPapyrus/${sign}`;
+      console.log('PapyriService.UpdatePapyrus input parameter sign = ' + sign);
+      let URI = `${this.REST_API}/updatePapyrus/${sign}`;
       return this.httpClient.patch(URI,payload).pipe(catchError(this.handleError)); 
     }
   

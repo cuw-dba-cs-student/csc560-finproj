@@ -1,0 +1,526 @@
+[{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495666"
+  },
+  "Name": "Papyrus 2",
+  "Sign": "𝔓2",
+  "Reference": "Inv. 7134",
+  "Date": "500-600",
+  "Century": null,
+  "EarlyDate": "500",
+  "LateDate": "600",
+  "GospelOfJohnText": "John 12:12-15",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "III - Eclectic",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495667"
+  },
+  "Name": "Papyrus 5",
+  "Sign": "𝔓5",
+  "Reference": "P. Oxy. 208",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 1:23-31, 33-40 16:14-22, 16:22-30, 20:19-20, 22-25",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495668"
+  },
+  "Name": "Papyrus 6",
+  "Sign": "𝔓6",
+  "Reference": "Pap. copt. 379. 381. 382. 384",
+  "Date": "300-400",
+  "Century": "4th",
+  "EarlyDate": "300",
+  "LateDate": "400",
+  "GospelOfJohnText": "John 10:1-2, 11:1-8, 45-52",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "II - Egyptian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495669"
+  },
+  "Name": "Papyrus 22",
+  "Sign": "𝔓22",
+  "Reference": "P. Oxy. 1228",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 15:25-16:3, 16:21-32",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449566a"
+  },
+  "Name": "Papyrus 28",
+  "Sign": "𝔓28",
+  "Reference": "P. Oxy. 1596",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 6:8-12, 6:17-22",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449566b"
+  },
+  "Name": "Papyrus 36",
+  "Sign": "𝔓36",
+  "Reference": "PSI I 3",
+  "Date": "500-600",
+  "Century": "7th",
+  "EarlyDate": "500",
+  "LateDate": "600",
+  "GospelOfJohnText": "John 3:14-17, 3:17-18, 3:31-32, 3:34-35",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "III - Eclectic",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449566c"
+  },
+  "Name": "Papyrus 39",
+  "Sign": "𝔓39",
+  "Reference": "P. Oxy. XV 1780",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 8:14-18, 8:18-21",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449566d"
+  },
+  "Name": "Papyrus 45",
+  "Sign": "𝔓45",
+  "Reference": "P. Chester Beatty I",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 4:51, 54, 5:21, 24, 10:7-25, 10:30-11:10, 18-36, 42-57",
+  "PlaceOfDiscovery": "Fayum, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449566e"
+  },
+  "Name": "Papyrus 52",
+  "Sign": "𝔓52",
+  "Reference": "Papyrus Rylands Greek 457",
+  "Date": "125-175",
+  "Century": "2nd",
+  "EarlyDate": "125",
+  "LateDate": "175",
+  "GospelOfJohnText": "John 18:31-33, 18:37-38",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449566f"
+  },
+  "Name": "Papyrus 55",
+  "Sign": "𝔓55",
+  "Reference": "Pap. Vindobonensis Gr. 26214",
+  "Date": "500-700",
+  "Century": "6th / 7th",
+  "EarlyDate": "500",
+  "LateDate": "700",
+  "GospelOfJohnText": "John 1:31-33, 35-38",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "II - Egyptian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495670"
+  },
+  "Name": "Papyrus 59",
+  "Sign": "𝔓59",
+  "Reference": "P. Colt 3",
+  "Date": "600-700",
+  "Century": "7th",
+  "EarlyDate": "600",
+  "LateDate": "700",
+  "GospelOfJohnText": "John 1:26, 28, 48, 51, 2:15-16, 11:40-52, 12:25-29, 31, 35, 17:24-26, 18:1-2, 16-17, 22, 21:7, 12-13, 15, 17-20, 23",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "III - Eclectic",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495671"
+  },
+  "Name": "Papyrus 60",
+  "Sign": "𝔓60",
+  "Reference": "Papyrus Colt 4",
+  "Date": "600-700",
+  "Century": "7th",
+  "EarlyDate": "600",
+  "LateDate": "700",
+  "GospelOfJohnText": "John 16:29-30, 16:32-17:6, 8-9, 11-15, 18-25, 18:1-2, 4-5, 7-16, 18-20, 23-29, 31-37, 39-40, 19:2-3, 5-8, 10-18, 20, 23-26",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "III - Eclectic",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495672"
+  },
+  "Name": "Papyrus 63",
+  "Sign": "𝔓63",
+  "Reference": "Inv. 11914",
+  "Date": "500-525",
+  "Century": "6th",
+  "EarlyDate": "500",
+  "LateDate": "525",
+  "GospelOfJohnText": "John 3:14-18, 4:9-10",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "II - Egyptian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495673"
+  },
+  "Name": "Papyrus 66",
+  "Sign": "𝔓66",
+  "Reference": "P. Bodmer II",
+  "Date": "200-225",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "225",
+  "GospelOfJohnText": "John 1:1-6:11, 6:35b-14:26, 29-30; 15:2-26; 16:2-4, 6-7; 16:10-20:20, 22-23; 20:25-21:9, 12, 17,John 19:25-28, 31-32,John 19:8-11, 13-15, 18-20, 23-24",
+  "PlaceOfDiscovery": "Jabal Abu Mana, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "26.21582499",
+  "DiscoveryLongY": "32.41749139"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495674"
+  },
+  "Name": "Papyrus 75",
+  "Sign": "𝔓75",
+  "Reference": "P. Bodmer XIV–XV",
+  "Date": "200-225",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "225",
+  "GospelOfJohnText": "John 1:1-11:45, 48-57, 12:3-13:19, 14:8-15:10",
+  "PlaceOfDiscovery": "Jabal Abu Mana, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "26.21582499",
+  "DiscoveryLongY": "32.41749139"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495675"
+  },
+  "Name": "Papyrus 76",
+  "Sign": "𝔓76",
+  "Reference": "G 36102 Pap",
+  "Date": "500-600",
+  "Century": "6th",
+  "EarlyDate": "500",
+  "LateDate": "600",
+  "GospelOfJohnText": "John 4:9, 12",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "III - Eclectic",
+  "DiscoveryLatX": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495676"
+  },
+  "Name": "Papyrus 80",
+  "Sign": "𝔓80",
+  "Reference": "P. Barc. 83",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 3:34",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495677"
+  },
+  "Name": "Papyrus 84",
+  "Sign": "𝔓84",
+  "Reference": "P.A.M. Khirbet Mird 4, 11, 26, 27",
+  "Date": "500-600",
+  "Century": "6th",
+  "EarlyDate": "500",
+  "LateDate": "600",
+  "GospelOfJohnText": "Mark 2:2-5, 8-9, 6:30-31, 33-34, 36-37, 39-41; John 5:5, 17:3, 7-8",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "III - Eclectic",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495678"
+  },
+  "Name": "Papyrus 90",
+  "Sign": "𝔓90",
+  "Reference": "P. Oxy 3523",
+  "Date": "100-200",
+  "Century": "2nd",
+  "EarlyDate": "100",
+  "LateDate": "200",
+  "GospelOfJohnText": "John 18:36-19:1; 19:1-7",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495679"
+  },
+  "Name": "Papyrus 93",
+  "Sign": "𝔓93",
+  "Reference": "PSI 108",
+  "Date": "400-500",
+  "Century": "5th",
+  "EarlyDate": "400",
+  "LateDate": "500",
+  "GospelOfJohnText": "John 13:15-17",
+  "PlaceOfDiscovery": "-",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449567a"
+  },
+  "Name": "Papyrus 95",
+  "Sign": "𝔓95",
+  "Reference": "P. Laur. PL II/31",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 5:26-29, 36-38",
+  "PlaceOfDiscovery": "-",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449567b"
+  },
+  "Name": "Papyrus 106",
+  "Sign": "𝔓106",
+  "Reference": "P. Oxy. 4445",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 1:29-35, 40-46",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "I - Alexandrian",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449567c"
+  },
+  "Name": "Papyrus 107",
+  "Sign": "𝔓107",
+  "Reference": "P. Oxy. 4446",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 17:1-2, 11",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449567d"
+  },
+  "Name": "Papyrus 108",
+  "Sign": "𝔓108",
+  "Reference": "P. Oxy. 4447",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 17:23-24, 18:1-5",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449567e"
+  },
+  "Name": "Papyrus 109",
+  "Sign": "𝔓109",
+  "Reference": "P. Oxy. 4448",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 21:18-20, 23-25",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a2449567f"
+  },
+  "Name": "Papyrus 119",
+  "Sign": "𝔓119",
+  "Reference": "P. Oxy. 4803",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 1:21-28, 38-44",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495680"
+  },
+  "Name": "Papyrus 120",
+  "Sign": "𝔓120",
+  "Reference": "P. Oxy. 4804",
+  "Date": "300-400",
+  "Century": "3rd",
+  "EarlyDate": "300",
+  "LateDate": "400",
+  "GospelOfJohnText": "John 1:25-28, 33-38, 42-44",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495681"
+  },
+  "Name": "Papyrus 121",
+  "Sign": "𝔓121",
+  "Reference": "P. Oxy. 4805",
+  "Date": "200-300",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "300",
+  "GospelOfJohnText": "John 19:17-18, 25-26",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495682"
+  },
+  "Name": "Papyrus 122",
+  "Sign": "𝔓122",
+  "Reference": "P. Oxy. 4806",
+  "Date": "300-500",
+  "Century": "4th",
+  "EarlyDate": "300",
+  "LateDate": "500",
+  "GospelOfJohnText": "John 21:11-14.22-24",
+  "PlaceOfDiscovery": "Oxyrhynchus, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "28.533333",
+  "DiscoveryLongY": " 30.666667"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495683"
+  },
+  "Name": "Papyrus 128",
+  "Sign": "𝔓128",
+  "Reference": "14.1.527",
+  "Date": "500-700",
+  "Century": "6th",
+  "EarlyDate": "500",
+  "LateDate": "700",
+  "GospelOfJohnText": "John 9:3-4, 12:16-18",
+  "PlaceOfDiscovery": "Monastery of Saint Epiphanius, Egypt",
+  "Category": "none",
+  "DiscoveryLatX": "25.69060566",
+  "DiscoveryLongY": "32.63921029"
+},{
+  "_id": {
+    "$oid": "5fde43f4f6a62b3a24495684"
+  },
+  "Name": "Papyrus 134",
+  "Sign": "𝔓134",
+  "Reference": "Willoughby Papyrus",
+  "Date": "200-400",
+  "Century": "3rd",
+  "EarlyDate": "200",
+  "LateDate": "400",
+  "GospelOfJohnText": "John 1:49-2:1",
+  "PlaceOfDiscovery": "-",
+  "Category": "none",
+  "DiscoveryLatX": "-",
+  "DiscoveryLongY": "-"
+},{
+  "_id": {
+    "$oid": "5fdf8a996657863f04132de4"
+  },
+  "Name": "Papyrus",
+  "Sign": "𝔓44",
+  "Date": "500-700",
+  "Century": "6th / 7th ",
+  "EarlyDate": "500",
+  "LateDate": "700",
+  "GospelOfJohnText": "John 10:8-14 ",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "II - Egyptian",
+  "DiscoveryLatX": "",
+  "DiscoveryLongY": ""
+},{
+  "_id": {
+    "$oid": "5fdf8b186657863f04132de5"
+  },
+  "Name": "Papyrus 44",
+  "Sign": "𝔓44",
+  "Date": "500-700",
+  "Century": "6th / 7th",
+  "EarlyDate": "500",
+  "LateDate": "700",
+  "GospelOfJohnText": "John 10:8-14",
+  "PlaceOfDiscovery": "Egypt",
+  "Category": "II - Egyptian",
+  "DiscoveryLatX": "",
+  "DiscoveryLongY": ""
+}]
