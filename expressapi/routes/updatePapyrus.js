@@ -16,7 +16,7 @@ router.patch('/:sign', async (req,res) => {
                     Sign: req.body.Sign,
                     Reference: req.body.Reference,
                     Date: req.body.Date,
-                    Century: req.bodyCentury,
+                    Century: req.body.Century,
                     EarlyDate: req.body.EarlyDate,
                     LateDate: req.body.LateDate,
                     GospelOfJohnText: req.body.GospelOfJohnText,
